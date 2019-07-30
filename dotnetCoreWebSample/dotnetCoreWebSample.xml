@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dotnetCoreWebSample</name>
+    </assembly>
+    <members>
+        <member name="T:dotnetCoreWebSample.Apis.BaseApiController">
+            <summary>
+            控制器基类
+            </summary>
+        </member>
+        <member name="T:dotnetCoreWebSample.Apis.SampleController">
+            <summary>
+            示例控制器
+            </summary>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.#ctor(dotnetCoreWebSample.Interfaces.IMyDependency)">
+            <summary>
+            初始化
+            </summary>
+            <param name="myDependency"></param>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.Get">
+            <summary>
+            Get请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.Get(System.Int32)">
+            <summary>
+            Get请求2  根据Id取信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.Post(dotnetCoreWebSample.Dtos.SampleDto)">
+            <summary>
+            Post请求
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.Put(dotnetCoreWebSample.Dtos.SampleDto)">
+            <summary>
+            Put请求
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.Delete(System.Int32)">
+            <summary>
+            Delete请求
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:dotnetCoreWebSample.Apis.SampleController.Delete(dotnetCoreWebSample.Dtos.SampleDto)">
+            <summary>
+            Delete请求
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:dotnetCoreWebSample.Dtos.SampleDto">
+            <summary>
+            数据传输对象
+            </summary>
+        </member>
+        <member name="T:dotnetCoreWebSample.Impl.MyDependency">
+            <summary>
+            实现示例
+            </summary>
+        </member>
+        <member name="T:dotnetCoreWebSample.Interfaces.IMyDependency">
+            <summary>
+            接口示例
+            </summary>
+        </member>
+    </members>
+</doc>
